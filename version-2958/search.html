@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>搜索-国产电视剧大全-热门好看的电视剧大全-高清剧集在线播放</title>
+  <meta name="description" content="国产电视剧大全站内搜索，支持按剧名、年份、地区、题材查找高清剧集。">
+  <meta name="keywords" content="剧集搜索,国产电视剧大全,国产电视剧,高清剧集,热门电视剧,电视剧大全,国产剧,剧集片库">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="./assets/css/site.css">
+</head>
+<body>
+<header class="site-header" id="siteHeader">
+  <nav class="nav-wrap" aria-label="主导航">
+    <a class="brand" href="index.html" aria-label="国产电视剧大全">
+      <span class="brand-mark">剧</span>
+      <span class="brand-text">国产电视剧大全</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">首页</a>
+      <a href="categories.html">分类</a>
+      <a href="rank.html">排行榜</a>
+      <a href="search.html">搜索</a>
+    </div>
+    <form class="nav-search search-form" action="search.html" method="get">
+      <input type="search" name="q" placeholder="搜索剧集、地区、题材" aria-label="搜索">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-toggle" type="button" aria-label="打开菜单" aria-expanded="false" data-menu-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+  <div class="mobile-panel" data-mobile-panel>
+    <form class="mobile-search search-form" action="search.html" method="get">
+      <input type="search" name="q" placeholder="搜索剧集、地区、题材" aria-label="移动端搜索">
+      <button type="submit">搜索</button>
+    </form>
+    <div class="mobile-links">
+      <a href="index.html">首页</a>
+      <a href="categories.html">分类</a>
+      <a href="rank.html">排行榜</a>
+      <a href="search.html">搜索</a>
+        <a href="category-drama.html">剧情佳作</a>
+        <a href="category-urban.html">都市情感</a>
+        <a href="category-comedy.html">喜剧生活</a>
+        <a href="category-action.html">动作热血</a>
+        <a href="category-suspense.html">悬疑推理</a>
+        <a href="category-crime.html">犯罪警匪</a>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="content-wrap">
+      <span class="page-kicker">站内搜索</span>
+      <h1>国产电视剧大全搜索</h1>
+      <p>输入剧名、地区、年份、类型或关键词，快速找到对应详情页。</p>
+    </div>
+  </section>
+  <div class="content-wrap main-content" data-search-root>
+    <section class="search-panel">
+      <form class="search-form" action="search.html" method="get">
+        <input type="search" name="q" placeholder="例如：剧情、2025、中国香港、悬疑" aria-label="搜索关键词">
+        <button type="submit">搜索</button>
+      </form>
+      <p class="search-summary" data-search-summary></p>
+    </section>
+    <section class="result-list" data-search-results></section>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="footer-wrap">
+    <div class="footer-brand">
+      <a class="brand footer-logo" href="index.html">
+        <span class="brand-mark">剧</span>
+        <span class="brand-text">国产电视剧大全</span>
+      </a>
+      <p>国产电视剧大全按题材、年份与热度分类整理，方便浏览不同类型剧集内容。</p>
+    </div>
+    <div class="footer-cols">
+      <section>
+        <h2>快速入口</h2>
+        <ul>
+          <li><a href="index.html">首页推荐</a></li>
+          <li><a href="categories.html">全部分类</a></li>
+          <li><a href="rank.html">排行榜</a></li>
+          <li><a href="search.html">站内搜索</a></li>
+        </ul>
+      </section>
+      <section>
+        <h2>剧集分类</h2>
+        <ul>
+          <li><a href="category-drama.html">剧情佳作</a></li>
+          <li><a href="category-urban.html">都市情感</a></li>
+          <li><a href="category-comedy.html">喜剧生活</a></li>
+          <li><a href="category-action.html">动作热血</a></li>
+          <li><a href="category-suspense.html">悬疑推理</a></li>
+          <li><a href="category-crime.html">犯罪警匪</a></li>
+          <li><a href="category-fantasy.html">科幻奇幻</a></li>
+          <li><a href="category-animation.html">动画冒险</a></li>
+        </ul>
+      </section>
+      <section>
+        <h2>观影体验</h2>
+        <ul>
+          <li>高清剧集在线播放</li>
+          <li>按题材浏览剧集</li>
+          <li>相关推荐连续发现</li>
+          <li>电脑与手机自适应</li>
+        </ul>
+      </section>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 国产电视剧大全. 保留所有权利.</p>
+  </div>
+</footer>
+<button class="back-top" type="button" aria-label="回到顶部" data-back-top>↑</button>
+<script src="./assets/js/site.js"></script>
+<script src="./assets/js/search-data.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

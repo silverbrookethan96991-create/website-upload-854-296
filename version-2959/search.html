@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>影片搜索 - 国产热门电影</title>
+  <meta name="description" content="搜索国产热门电影片库中的影片名称、类型、题材、地区和年份。">
+  <meta name="keywords" content="国产热门电影,热门影片片库,国产电影,高清播放,热门影片,华语电影,精选电影,影片搜索,电影搜索">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/search-data.js" defer></script>
+<script src="assets/app.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="国产热门电影">
+      <span class="brand-mark">影</span>
+      <span class="brand-text">国产热门电影</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a href="index.html">首页</a>
+      <a href="categories.html">分类</a>
+      <a href="ranking.html">排行榜</a>
+      <a href="search.html">搜索</a>
+      <a href="sitemap.html">影片索引</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-label="打开菜单">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="mobile-panel">
+    <a href="index.html">首页</a>
+    <a href="categories.html">分类总览</a>
+    <a href="ranking.html">排行榜</a>
+    <a href="search.html">搜索</a>
+    <a href="sitemap.html">影片索引</a>
+    <a href="category-guochan-movie.html">国产电影精选</a><a href="category-remen-juji.html">热门剧集片库</a><a href="category-xuanyi-tuili.html">悬疑推理专区</a><a href="category-qihuan-maoxian.html">奇幻冒险频道</a><a href="category-qingchun-xiaoyuan.html">青春校园片单</a><a href="category-aiqing-dushi.html">爱情都市精选</a><a href="category-xiju-jiating.html">喜剧家庭专区</a><a href="category-fanzui-dongzuo.html">犯罪动作频道</a><a href="category-lishi-guzhuang.html">历史古装片库</a><a href="category-kehuan-weilai.html">科幻未来精选</a><a href="category-donghua-shaoer.html">动画少儿专区</a><a href="category-juqing-jiapian.html">剧情佳片精选</a>
+  </div>
+</header>
+<main>
+<section class="page-hero search-hero">
+  <div class="container">
+    <span class="eyebrow">影片搜索</span>
+    <h1>搜索影片名称、题材、地区或年份</h1>
+    <form class="search-page-form" data-search-form>
+      <input type="search" name="q" data-search-input aria-label="搜索关键词" placeholder="输入关键词开始搜索">
+      <button type="submit">搜索</button>
+    </form>
+  </div>
+</section>
+<div class="container page-stack">
+  <section class="content-section">
+    <div class="section-heading">
+  <div>
+    <span class="section-icon">⌕</span>
+    <h2>搜索结果</h2>
+  </div>
+  
+</div>
+    <div class="movie-grid category-movie-grid" data-search-results></div>
+    <p class="empty-message" data-search-empty>输入关键词即可查找影片。</p>
+  </section>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="brand footer-brand" href="index.html">
+        <span class="brand-mark">影</span>
+        <span class="brand-text">国产热门电影</span>
+      </a>
+      <p>精选热门影片、剧集与多类型影视内容，支持按分类、热度与关键词快速浏览。</p>
+    </div>
+    <div>
+      <h2>快捷入口</h2>
+      <div class="footer-links">
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="ranking.html">排行榜</a>
+        <a href="search.html">搜索</a>
+        <a href="sitemap.html">影片索引</a>
+      </div>
+    </div>
+    <div>
+      <h2>影片分类</h2>
+      <div class="footer-links footer-cats"><a href="category-guochan-movie.html">国产电影精选</a><a href="category-remen-juji.html">热门剧集片库</a><a href="category-xuanyi-tuili.html">悬疑推理专区</a><a href="category-qihuan-maoxian.html">奇幻冒险频道</a><a href="category-qingchun-xiaoyuan.html">青春校园片单</a><a href="category-aiqing-dushi.html">爱情都市精选</a><a href="category-xiju-jiating.html">喜剧家庭专区</a><a href="category-fanzui-dongzuo.html">犯罪动作频道</a><a href="category-lishi-guzhuang.html">历史古装片库</a><a href="category-kehuan-weilai.html">科幻未来精选</a><a href="category-donghua-shaoer.html">动画少儿专区</a><a href="category-juqing-jiapian.html">剧情佳片精选</a></div>
+    </div>
+  </div>
+</footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
